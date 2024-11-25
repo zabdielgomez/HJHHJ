@@ -1,0 +1,6 @@
+{body:after 
+    content: "Este texto se agregará al final de la página.";
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic; }

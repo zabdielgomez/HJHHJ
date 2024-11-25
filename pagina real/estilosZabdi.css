@@ -1,0 +1,86 @@
+/* Basic reset styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; /* Default font */
+}
+
+/* Header Styles */
+header {
+  background-color: #333; /* Dark gray background */
+  color: #fff;  /* White text */
+  padding: 20px;
+  display: flex; /* Arrange logo and title horizontally */
+  justify-content: space-between; /* Space items evenly */
+  align-items: center; /* Align vertically in center */
+}
+
+.logo {
+  width: 100px; /* Adjust logo width as needed */
+}
+
+h1 {
+  font-size: 2em; /* Set title size a little larger */
+}
+
+/* Navigation Styles */
+.menu {
+  background-color: #eee; /* Light gray background */
+  padding: 10px;
+  border-bottom: 1px solid #ccc; /* Border to separate sections */
+}
+
+.menu b { /* Style the bold text for "LIBROS DE MATEMÁTICA" */
+  display: block; /* Display on its own line */
+  margin-bottom: 10px; /* Add space below */
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin-bottom: 5px; /* Add space between list items */
+}
+
+nav a {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Dark gray text */
+}
+
+nav a:hover { /* Style link on hover */
+  color: #000; /* Black text on hover */
+}
+
+/* Main Content Styles */
+.contenido {
+  padding: 20px; /* Add padding to content area */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center; /* Center footer content */
+}
+
+footer h3 {
+  margin-bottom: 10px; /* Add space below heading */
+}
+
+footer p {
+  margin-bottom: 5px; /* Add space between contact details */
+}
+
+footer a {
+  color: #fff; /* White text for links */
+}
+
+footer a:hover { /* Style link on hover */
+  color: #89f0eb; /* Lighter gray text on hover */
+}
